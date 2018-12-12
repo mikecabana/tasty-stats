@@ -5,9 +5,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Tasty Stats - Some statistics of the Syntax FM Podcast</title>
+
+    {{!-- <!-- COMMON TAGS --> --}}
+    <meta charset="utf-8">
+    <title>Tasty Stats</title>
+    {{!-- <!-- Search Engine --> --}}
+    <meta name="description" content="Some hasty statistics of the Syntax.FM Podcast">
+    <meta name="image" content="https://tasty-stats.herokuapp.com/images/social.jpg">
+    {{!-- <!-- Schema.org for Google --> --}}
+    <meta itemprop="name" content="Tasty Stats">
+    <meta itemprop="description" content="Some hasty statistics of the Syntax.FM Podcast">
+    <meta itemprop="image" content="https://tasty-stats.herokuapp.com/images/social.jpg">
+    {{!-- <!-- Twitter --> --}}
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Tasty Stats">
+    <meta name="twitter:description" content="Some hasty statistics of the Syntax.FM Podcast">
+    <meta name="twitter:site" content="@mikecabana">
+    <meta name="twitter:image:src" content="https://tasty-stats.herokuapp.com/images/social.jpg">
+    {{!-- <!-- Open Graph general (Facebook, Pinterest & Google+) --> --}}
+    <meta name="og:title" content="Tasty Stats">
+    <meta name="og:description" content="Some hasty statistics of the Syntax.FM Podcast">
+    <meta name="og:image" content="https://tasty-stats.herokuapp.com/images/social.jpg">
+    <meta name="og:url" content="https://tasty-stats.herokuapp.com">
+    <meta name="og:site_name" content="Tasty Stats">
+    <meta name="og:type" content="website">
+
+    <title>Tasty Stats - Some hasty statistics of the Syntax.FM Podcast</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
-    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <script async src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
     <style>
         @font-face {
             font-family: "Foxlite";
@@ -28,6 +53,14 @@
         .hero-subtitle {
             font-size: 16px;
             font-family: Arial, Helvetica, sans-serif font-weight: 600;
+        }
+
+        .icon-link {
+            color: #4a4a4a;
+        }
+
+        .icon-link:hover {
+            color: #ffdd57;
         }
     </style>
 </head>
@@ -50,8 +83,15 @@
 <footer class="footer">
     <div class="content has-text-centered">
         <p>
-            &copy; 2018 - Made by <a href="https://github.com/mikecabana">@mikecabana</a> with &hearts; of the <a href="https://syntax.fm">Syntax</a> podcast. 
+            &copy; 2018 - Made by <a href="https://github.com/mikecabana" target="_blank">@mikecabana</a> with &hearts;
+            of the <a href="https://syntax.fm" target="_blank">Syntax</a>
+            podcast.
         </p>
+        <a href="https://github.com/mikecabana/tasty-stats" class="icon-link" target="_blank">
+            <span class="icon is-medium" style="font-size: 2rem;">
+                <i class="fab fa-lg fa-github"></i>
+            </span>
+        </a>
     </div>
 </footer>
 
