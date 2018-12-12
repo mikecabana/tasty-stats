@@ -1,0 +1,29 @@
+{
+  "name": "tasty-stats",
+  "version": "1.0.0",
+  "description": "a simple stats viewer of the syntax podcast based on the rss feed",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "syntax",
+    "statistics",
+    "podcast",
+    "specificity"
+  ],
+  "author": "Michael Cabana <mikeycabana@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "helmet": "^3.15.0",
+    "moment": "^2.22.2",
+    "morgan": "^1.9.1",
+    "parse-ms": "^2.0.0",
+    "pug": "^2.0.3",
+    "rss-parser": "^3.5.4"
+  }
+}
