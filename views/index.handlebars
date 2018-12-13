@@ -4,12 +4,11 @@
 
         <div class="columns">
 
-            <div class="column">
-
-                <div class="card">
+            <div class="column is-flex">
+                <div class="card w-100">
                     <div class="card-content has-text-centered">
                         <p class="subtitle">
-                            <strong>Scott Tolinski</strong> has spent
+                            <a class="hero-link" href="https://twitter.com/stolinski">Scott Tolinski</a> has spent
                         </p>
                         <p class="title" style="margin: 30px 0;">
                             {{ days }} <span class="foxlite-font" style="font-weight: 500;">Days</span>
@@ -21,8 +20,8 @@
                 </div>
             </div>
 
-            <div class="column">
-                <div class="card">
+            <div class="column is-flex">
+                <div class="card w-100">
                     <div class="card-content has-text-centered">
                         <p class="subtitle">
                             <strong>Wes</strong> and <strong>Scott</strong> have spent
@@ -37,8 +36,8 @@
                 </div>
             </div>
 
-            <div class="column">
-                <div class="card">
+            <div class="column is-flex">
+                <div class="card w-100">
                     <div class="card-content has-text-centered">
                         <p class="subtitle">
                             <strong>Syntax</strong> has spent
@@ -48,6 +47,22 @@
                         </p>
                         <p class="subtitle" style="margin-top: 1.5rem;">
                             delivering <strong>TASTY</strong> content!
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column is-flex">
+                <div class="card w-100">
+                    <div class="card-content has-text-centered">
+                        <p class="subtitle">
+                            <a class="hero-link" href="https://twitter.com/wesbos">Wes Bos</a>
+                        </p>
+                        <p class="title" style="margin: 30px 0;">
+                            {{ seconds }} <span class="foxlite-font" style="font-weight: 500;">Secs</span>
+                        </p>
+                        <p class="subtitle" style="margin-top: 1.5rem;">
+                            
                         </p>
                     </div>
                 </div>
@@ -67,7 +82,7 @@
                 <div class="card">
                     <div class="card-content">
                         <p class="subtitle">
-                            Breakdown
+                            Total Duration
                         </p>
                         <pre>{{ breakdown }} 
                         </pre>
@@ -79,7 +94,7 @@
                 <div class="card">
                     <div class="card-content">
                         <p class="subtitle">
-                            Breakdown of Averages
+                            Average Duration
                         </p>
                         <pre>{{ averageBreakdown }}
                         </pre>
