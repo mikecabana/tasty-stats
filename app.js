@@ -27,7 +27,7 @@ app.use(helmet());
 app.use(morgan('dev'));
 
 app.get('/sentry/test', (req, res) => {
-    throw new Error('Broke!');
+    throw new Error('Broke! This is a test!');
 });
 
 app.get('/api/stats', async (req, res) => {
